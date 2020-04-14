@@ -13,6 +13,7 @@ public class Veículo {
         
         public void desligar() {
             this.ligado = false;
+            System.out.println(ligado);
         }
 
 }

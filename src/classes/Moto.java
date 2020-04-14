@@ -13,6 +13,7 @@ public class Moto extends Veículo{
     
      public void destravar () {
          this.travada = false;
+         System.out.println(travada);
      }
 
 }
